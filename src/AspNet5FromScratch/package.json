@@ -1,7 +1,7 @@
 {
-	"version": "1.0.0",
-	"name": "AspNetFromScratch",
-	"private": true,
+  "version": "1.0.0",
+  "name": "AspNetFromScratch",
+  "private": true,
   "devDependencies": {
     "gulp": "3.8.11",
     "gulp-concat": "2.5.2",
