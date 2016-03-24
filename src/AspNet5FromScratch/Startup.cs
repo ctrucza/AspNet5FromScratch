@@ -15,6 +15,7 @@ namespace AspNet5FromScratch
         public void Configure(IApplicationBuilder app)
         {
             app.UseIISPlatformHandler();
+            app.UseStaticFiles();
             app.UseMvc(routes => routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}"));
         }
 
